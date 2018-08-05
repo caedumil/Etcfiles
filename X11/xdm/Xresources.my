@@ -1,0 +1,50 @@
+! icon theme
+Xcursor.theme: Adwaita
+
+! bind actions to particular keys sequences
+xlogin*login.translations: #override \
+	Ctrl<Key>R: abort-display()\n\
+	<Key>F1: set-session-argument(failsafe) finish-field()\n\
+	<Key>Delete: delete-character()\n\
+	<Key>Left: move-backward-character()\n\
+	<Key>Right: move-forward-character()\n\
+	<Key>Home: move-to-begining()\n\
+	<Key>End: move-to-end()\n\
+	Ctrl<Key>KP_Enter: set-session-argument(failsafe) finish-field()\n\
+	<Key>KP_Enter: set-session-argument() finish-field()\n\
+	Ctrl<Key>Return: set-session-argument(failsafe) finish-field()\n\
+	<Key>Return: set-session-argument() finish-field()
+
+! colors
+xlogin*foreground: #1c2023
+xlogin*background: #1c2023
+xlogin*promptColor: #c7ccd1
+xlogin*greetColor: #ae95c7
+xlogin*failColor: #c7ae95
+
+! shadows
+xlogin*shdColor: #747c84
+xlogin*hiColor: #747c84
+
+! prompts
+xlogin*greeting: Welcome to CLIENTHOST
+xlogin*fail: -- Permission Denied --
+xlogin*namePrompt: Login:
+xlogin*passwordPrompt: Password:
+xlogin*echoPasswd: true
+
+! fonts
+xlogin*font:		-misc-ohsnap-medium-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*greetFont:	-misc-ohsnap-medium-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*promptFont:	-misc-ohsnap-bold-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*failFont:	-misc-ohsnap-bold-*-normal-*-11-*-*-*-*-*-*-*
+
+xlogin*face:		Misc Ohsnap-9
+xlogin*greetFace:	Misc Ohsnap-9:bold:italic
+xlogin*promptFace:	Misc Ohsnap-9:bold
+xlogin*failFace:	Misc Ohsnap-9:bold
+
+! shape
+xlogin*borderWidth: 1
+xlogin*frameWidth: 1
+xlogin*innerFramesWidth: 1
