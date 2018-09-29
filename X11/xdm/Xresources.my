@@ -39,15 +39,15 @@ xlogin*passwordPrompt: Password:
 xlogin*echoPasswd: true
 
 ! fonts
-xlogin*font:		-misc-ohsnap-medium-*-normal-*-11-*-*-*-*-*-*-*
-xlogin*greetFont:	-misc-ohsnap-medium-*-normal-*-11-*-*-*-*-*-*-*
-xlogin*promptFont:	-misc-ohsnap-bold-*-normal-*-11-*-*-*-*-*-*-*
-xlogin*failFont:	-misc-ohsnap-bold-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*font:		-lucy-tewi-medium-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*greetFont:	-lucy-tewi-medium-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*promptFont:	-lucy-tewi-bold-*-normal-*-11-*-*-*-*-*-*-*
+xlogin*failFont:	-lucy-tewi-bold-*-normal-*-11-*-*-*-*-*-*-*
 
-xlogin*face:		Misc Ohsnap-9
-xlogin*greetFace:	Misc Ohsnap-9:bold:italic
-xlogin*promptFace:	Misc Ohsnap-9:bold
-xlogin*failFace:	Misc Ohsnap-9:bold
+xlogin*face:		lucy tewi-8
+xlogin*greetFace:	lucy tewi-8
+xlogin*promptFace:	lucy tewi-8:bold
+xlogin*failFace:	lucy tewi-8:bold
 
 ! shape
 xlogin*borderWidth: 1
