@@ -16,15 +16,20 @@ xlogin*login.translations: #override \
 	<Key>Return: set-session-argument() finish-field()
 
 ! colors
-xlogin*foreground: #1c2023
-xlogin*background: #1c2023
-xlogin*promptColor: #c7ccd1
-xlogin*greetColor: #ae95c7
-xlogin*failColor: #c7ae95
+!! color0
+xlogin*foreground: #2b2b2b
+xlogin*background: #2b2b2b
+!! color7
+xlogin*promptColor: #e6e1dc
+!! color4
+xlogin*greetColor: #6d9cbe
+!! color1
+xlogin*failColor: #da4939
 
 ! shadows
-xlogin*shdColor: #747c84
-xlogin*hiColor: #747c84
+!! color8
+xlogin*shdColor: #5a647e
+xlogin*hiColor: #5a647e
 
 ! prompts
 xlogin*greeting: Welcome to CLIENTHOST
