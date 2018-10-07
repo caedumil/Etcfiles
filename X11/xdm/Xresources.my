@@ -17,19 +17,19 @@ xlogin*login.translations: #override \
 
 ! colors
 !! color0
-xlogin*foreground: #2b2b2b
-xlogin*background: #2b2b2b
+xlogin*foreground: #181818
+xlogin*background: #181818
 !! color7
-xlogin*promptColor: #e6e1dc
+xlogin*promptColor: #d8d8d8
 !! color4
-xlogin*greetColor: #6d9cbe
+xlogin*greetColor: #7cafc2
 !! color1
-xlogin*failColor: #da4939
+xlogin*failColor: #ab4642
 
 ! shadows
 !! color8
-xlogin*shdColor: #5a647e
-xlogin*hiColor: #5a647e
+xlogin*shdColor: #585858
+xlogin*hiColor: #585858
 
 ! prompts
 xlogin*greeting: Welcome to CLIENTHOST
