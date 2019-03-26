@@ -1,0 +1,5 @@
+# Set BFQ I/O scheduler for rotational drives
+ACTION=="add|change", KERNEL=="sd[a-z]*", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
+
+# Set NOOP I/O scheduler for USB drives
+ACTION=="add", KERNEL=="sd?", SUBSYSTEMS=="usb", ATTR{queue/scheduler}="mq-deadline"

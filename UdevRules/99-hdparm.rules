@@ -1,0 +1,7 @@
+# Samsung HD 160G
+# APM level = 127, Standby timeout = 60 (5 minutes)
+ACTION=="add|change", KERNEL=="sd[a-z]", ENV{ID_SERIAL_SHORT}=="S1ZWJ60SA00469", RUN+="/usr/bin/hdparm -B 127 -S 60 /dev/%k"
+
+# Samsung HD 80G
+# APM level = 127, Standby timeout = 60 (5 minutes)
+ACTION=="add|change", KERNEL=="sd[a-z]", ENV{ID_SERIAL_SHORT}=="S16OJ50PB20757", RUN+="/usr/bin/hdparm -B 127 -S 60 /dev/%k"

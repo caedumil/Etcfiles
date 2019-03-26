@@ -1,0 +1,5 @@
+# SD Card Reader
+KERNEL=="sd*", SUBSYSTEMS=="scsi", ATTRS{model}=="SD/MMC          ", SYMLINK+="memcard/sdcard%n", GROUP="storage"
+KERNEL=="sd*", SUBSYSTEMS=="scsi", ATTRS{model}=="Compact Flash   ", SYMLINK+="memcard/cfcard%n", GROUP="storage"
+KERNEL=="sd*", SUBSYSTEMS=="scsi", ATTRS{model}=="SM/xD-Picture   ", SYMLINK+="memcard/smcard%n", GROUP="storage"
+KERNEL=="sd*", SUBSYSTEMS=="scsi", ATTRS{model}=="MS/MS-Pro       ", SYMLINK+="memcard/mstick%n", GROUP="storage"

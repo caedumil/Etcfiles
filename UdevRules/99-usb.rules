@@ -1,0 +1,2 @@
+# Encrypted USB drive
+KERNEL=="sd*", SUBSYSTEMS=="usb", ATTRS{idVendor}=="08ec", ATTRS{idProduct}=="0016", SYMLINK+="storage/crypt%n"
