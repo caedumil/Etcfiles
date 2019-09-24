@@ -15,6 +15,10 @@ xlogin*login.translations: #override \
 	Ctrl<Key>Return: set-session-argument(failsafe) finish-field()\n\
 	<Key>Return: set-session-argument() finish-field()
 
+! geometry
+xlogin*width: 384
+xlogin*height: 216
+
 ! colors
 !! color0
 xlogin*foreground: #181818
@@ -39,15 +43,10 @@ xlogin*passwordPrompt: Password:
 xlogin*echoPasswd: true
 
 ! fonts
-xlogin*font:		-gohu-gohufont-medium-*-normal-*-11-*-*-*-*-*-*-*
-xlogin*greetFont:	-gohu-gohufont-medium-*-normal-*-11-*-*-*-*-*-*-*
-xlogin*promptFont:	-gohu-gohufont-bold-*-normal-*-11-*-*-*-*-*-*-*
-xlogin*failFont:	-gohu-gohufont-bold-*-normal-*-11-*-*-*-*-*-*-*
-
-xlogin*face:		Gohu GohuFont-8
-xlogin*greetFace:	Gohu GohuFont-8
-xlogin*promptFace:	Gohu GohuFont-8:bold
-xlogin*failFace:	Gohu GohuFont-8:bold
+xlogin*face:		Envy Code R-10
+xlogin*greetFace:	Envy Code R-10
+xlogin*promptFace:	Envy Code R-10:bold
+xlogin*failFace:	Envy Code R-10:bold
 
 ! shape
 xlogin*borderWidth: 1
