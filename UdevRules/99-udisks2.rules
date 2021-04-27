@@ -1,10 +1,11 @@
 # UDISKS_FILESYSTEM_SHARED
 # ==1: mount filesystem to a shared directory (/media/VolumeName)
 # ==0: mount filesystem to a private directory (/run/media/$USER/VolumeName)
-ENV{ID_FS_USAGE}=="filesystem|other|crypto", ENV{UDISKS_FILESYSTEM_SHARED}="1"
+ENV{ID_FS_USAGE}=="filesystem|other|crypto", ENV{UDISKS_FILESYSTEM_SHARED}="0"
 
 # UDISKS_IGNORE
 # ==1: overrides the value of the HintIgnore property
-SUBSYSTEM=="block", ENV{ID_FS_UUID}=="b262a344-0cae-42bf-9c63-89a6ab9d8088", ENV{UDISKS_IGNORE}="1"
-SUBSYSTEM=="block", ENV{ID_FS_UUID}=="cf7ca1b2-58e4-4745-b6b8-ce3f24600ee8", ENV{UDISKS_IGNORE}="1"
-SUBSYSTEM=="block", ENV{ID_FS_UUID}=="9b5d8ad3-c023-45d7-b502-e30097e2ae29", ENV{UDISKS_IGNORE}="1"
+#SUBSYSTEM=="block", ENV{ID_FS_UUID}=="F0AE-BB22", ENV{UDISKS_IGNORE}="1"
+#SUBSYSTEM=="block", ENV{ID_FS_UUID}=="44e93055-8088-4003-96fd-6fcf0fbfa01a", ENV{UDISKS_IGNORE}="1"
+SUBSYSTEMS=="pci", DRIVERS=="nvme|ahci", ENV{UDISKS_IGNORE}="1"
+SUBSYSTEMS=="usb", DRIVERS=="uas", ENV{UDISKS_IGNORE}="1"
