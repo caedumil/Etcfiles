@@ -21,19 +21,19 @@ xlogin*height: 216
 
 ! colors
 !! color0
-xlogin*foreground: #181818
-xlogin*background: #181818
+xlogin*foreground: #2E3440
+xlogin*background: #2E3440
 !! color7
-xlogin*promptColor: #d8d8d8
+xlogin*promptColor: #D8DEE9
 !! color4
-xlogin*greetColor: #7cafc2
+xlogin*greetColor: #81A1C1
 !! color1
-xlogin*failColor: #ab4642
+xlogin*failColor: #BF616A
 
 ! shadows
 !! color8
-xlogin*shdColor: #585858
-xlogin*hiColor: #585858
+xlogin*shdColor: #4C566A
+xlogin*hiColor: #4C566A
 
 ! prompts
 xlogin*greeting: Welcome to CLIENTHOST
@@ -43,6 +43,11 @@ xlogin*passwordPrompt: Password:
 xlogin*echoPasswd: true
 
 ! fonts
+!xlogin*font:		-gohu-gohufont-medium-*-normal-*-11-*-*-*-*-*-*-*
+!xlogin*greetFont:	-gohu-gohufont-medium-*-normal-*-11-*-*-*-*-*-*-*
+!xlogin*promptFont:	-gohu-gohufont-bold-*-normal-*-11-*-*-*-*-*-*-*
+!xlogin*failFont:	-gohu-gohufont-bold-*-normal-*-11-*-*-*-*-*-*-*
+
 xlogin*face:		Envy Code R-10
 xlogin*greetFace:	Envy Code R-10
 xlogin*promptFace:	Envy Code R-10:bold
